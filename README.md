@@ -1,4 +1,4 @@
-🧠 Nietzsche-GPT
+#🧠 Nietzsche-GPT
 
 A miniature GPT-style Transformer trained from scratch on Nietzsche’s writings.
 
