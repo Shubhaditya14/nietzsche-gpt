@@ -76,6 +76,5 @@ start = torch.zeros((1,1), dtype=torch.long).to(device)
 out = model.generate(start, max_new_tokens=500, device=device)
 print(decode(out[0].tolist()))
 
-# ⬇️ You can save after if you want
 torch.save(model.state_dict(), "model.pt")
 print("Training complete.")
