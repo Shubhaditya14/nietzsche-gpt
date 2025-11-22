@@ -1,1 +1,19 @@
 nietzsche.txt
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+env/
+venv/
+
+# OS junk
+.DS_Store
+
+# Model outputs / checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Logs
+*.log
